@@ -1,0 +1,38 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CompanyCountry</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/jquery-jvectormap-2.0.3.css">
+
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="res/jquery-jvectormap-2.0.3.min.js"></script>
+    <script src="res/world-map.js"></script>
+    <script src="res/pop.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <div id="lightbox" class="darkenScreen"></div>
+    <div class="outerWrapper">
+      <div class="middleWrapper">
+        <div id="floatyInfo" class="middleFloatBox inner">
+          <div id="titleWrapper" class="titleBox">
+            <span id="name"></span>
+          </div>
+          <div id="detailsWrapper">
+            Population:&nbsp;<span id="pop"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="world-map" style="width: 600px; height: 400px"></div>
+  </body>
+</html>
